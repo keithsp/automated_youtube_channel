@@ -6,7 +6,7 @@ import dateutil.relativedelta
 
 # Instanciate 
 looter = ProfileLooter("daquan", videos_only=True, template="{id}-{username}-{width}-{height}")
-looter.login("", "")
+looter.login("jikanwoaru", "oxplosion123")
 
 today = datetime.date.today()
 thismonth = (today, today - dateutil.relativedelta.relativedelta(days=28))
